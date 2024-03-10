@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleak.css">
+</head>
+
+<body>
+
+   
+    <div class="container">
+
+        <div class="row">
+            <form class="form">
+                <div>
+                    <div>
+                        <label class="form-label" for="bp">Basic pay</label>
+                        <input class="form-control" type="text" id="bp">
+
+
+
+                        <label class="form-label" for="hra">HRA</label>
+                        <input class="form-control" type=" text" id="hra">
+                    </div>
+
+                    <div>
+                        <label class="form-label" for="hr">DA</label>
+                        <input class="form-control" type="text" id="da">
+
+                        <label class="form-label" for="travel">Travel</label>
+                        <input class="form-control" type="text" id="travel">
+                    </div>
+
+                    <div>
+                        <label class="form-label" for="pf">PF</label>
+                        <input class="form-control" type="pf" id="pf">
+
+                        <label class="form-label" for="gross">Gross</label>
+                        <input class="form-control" type="pf" id="gross">
+                    </div>
+
+                    <div>
+                        <label class="form-label" for="net">NetSalary</label>
+                        <input class="form-control" type="pf" id="net">
+                    </div>
+
+                    <input type="button" class="btn-primary" value="Print" id="print " onclick="print()">
+                </div>
+
+            </form>
+        </div>
+
+        <div class="col-md-6 col-lg-8 mt-5">
+            <table id="table">
+                <tr>
+                    <th id="head5">basic pay</th>
+                    <th id="head1">HRA</th>
+                    <th id="head2">DA</th>
+                    <th id="head3">Travel</th>
+                    <th id="head4">Pf</th>
+                    <th id="head6">gross</th>
+                    <th id="head7">net salary</th>
+
+                </tr>
+                <tr>
+                    <td id="data"></td>
+                    <td id="data1"></td>
+                    <td id="data2"></td>
+                    <td id="data3"></td>
+                    <td id="data4"></td>
+                    <td id="data5"></td>
+                    <td id="data6"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+
+
+
+    <script src="scriptak.js"></script>
+</body>
+
+</html>
